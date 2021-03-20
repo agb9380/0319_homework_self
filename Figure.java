@@ -37,7 +37,7 @@ class Figure2 extends Figure {
 
 	@Override
 	public void S_R_Calculaor(int a) {
-		System.out.println("반지름이 " + a + "인 원의 면적은 " + a * a * PI + "입니다.");
+		System.out.println("반지름이 " + a + "인 원의 면적은 " + a * a * Figure.PI + "입니다.");
 	}
 
 	public int CreateR() {
